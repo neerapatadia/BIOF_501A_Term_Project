@@ -1,0 +1,20 @@
+Name	GC_Content
+>NM_001754.5 Homo sapiens RUNX family transcription factor 1 (RUNX1), transcript variant 1, mRNA	0.4886953609110702
+>NM_001111021.2 Mus musculus runt related transcription factor 1 (Runx1), transcript variant 1, mRNA	0.5000861623298294
+>XM_017598053.2 PREDICTED: Rattus norvegicus RUNX family transcription factor 1 (Runx1), transcript variant X1, mRNA	0.5134399455597142
+>NM_131603.3 Danio rerio RUNX family transcription factor 1 (runx1), mRNA	0.5096904830778132
+>XM_025146751.2 PREDICTED: Gallus gallus runt-related transcription factor 1 (RUNX1), transcript variant X1, mRNA	0.47800029235491887
+>XM_022413371.2 PREDICTED: Canis lupus familiaris RUNX family transcription factor 1 (RUNX1), transcript variant X1, mRNA	0.7153536515238643
+>NM_001256578.1 Bos taurus RUNX family transcription factor 1 (RUNX1), mRNA	0.7007211538461539
+>NM_001265962.1 Macaca mulatta RUNX family transcription factor 1 (RUNX1), mRNA	0.4989073793914944
+>XM_007493229.2 PREDICTED: Monodelphis domestica runt related transcription factor 1 (RUNX1), transcript variant X1, mRNA	0.5427065026362039
+>XM_029839511.1 PREDICTED: Takifugu rubripes RUNX family transcription factor 1 (runx1), transcript variant X1, mRNA	0.5410497981157469
+>XM_023630092.1 PREDICTED: Equus caballus runt related transcription factor 1 (RUNX1), transcript variant X1, mRNA	0.48841893252769386
+>XM_029082303.1 PREDICTED: Ornithorhynchus anatinus RUNX family transcription factor 1 (RUNX1), transcript variant X1, mRNA	0.6514003875286243
+>XM_030284489.3 PREDICTED: Taeniopygia guttata RUNX family transcription factor 1 (RUNX1), mRNA	0.4908637873754153
+>XM_017350826.1 PREDICTED: Oryctolagus cuniculus runt related transcription factor 1 (RUNX1), transcript variant X1, mRNA	0.7167813658020117
+>XM_008986637.3 PREDICTED: Callithrix jacchus RUNX family transcription factor 1 (RUNX1), transcript variant X1, mRNA	0.7203530060672918
+>XM_002830660.4 PREDICTED: Pongo abelii runt related transcription factor 1 (RUNX1), mRNA	0.49015025041736227
+>XM_034655847.1 PREDICTED: Ailuropoda melanoleuca RUNX family transcription factor 1 (RUNX1), transcript variant X4, mRNA	0.4764388801947487
+>XM_012957998.3 PREDICTED: Xenopus tropicalis RUNX family transcription factor 1 (runx1), transcript variant X1, mRNA	0.5497716894977169
+>NM_001246252.1 Sus scrofa RUNX family transcription factor 1 (RUNX1), mRNA	0.735966735966736

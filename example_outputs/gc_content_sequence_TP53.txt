@@ -1,0 +1,20 @@
+Name	GC_Content
+>NM_000546.6 Homo sapiens tumor protein p53 (TP53), transcript variant 1, mRNA	0.5732484076433121
+>NM_011640.3 Mus musculus transformation related protein 53 (Trp53), transcript variant 1, mRNA	0.6131386861313869
+>NM_030989.3 Rattus norvegicus tumor protein p53 (Tp53), mRNA	0.5814732142857143
+>NM_001271820.1 Danio rerio tumor protein p53 (tp53), transcript variant 1, mRNA	0.3881932021466905
+>NM_174201.2 Bos taurus tumor protein p53 (TP53), mRNA	0.5912643678160919
+>NM_205264.1 Gallus gallus tumor protein p53 (TP53), mRNA	0.7742765273311897
+>NM_213824.3 Sus scrofa tumor protein p53 (TP53), mRNA	0.5613845321795565
+>NM_001389218.1 Canis lupus familiaris tumor protein p53 (TP53), mRNA	0.609478672985782
+>NM_001001903.1 Xenopus tropicalis tumor protein p53 (tp53), mRNA	0.5116279069767442
+>NM_001009403.1 Ovis aries tumor protein p53 (TP53), mRNA	0.5939675174013921
+>XM_016931470.2 PREDICTED: Pan troglodytes tumor protein p53 (TP53), transcript variant X1, mRNA	0.5713224368499257
+>NM_001009294.1 Felis catus tumor protein p53 (TP53), mRNA	0.6150256649556696
+>XM_007483356.1 PREDICTED: Monodelphis domestica tumor protein p53 (TP53), partial mRNA	0.4914586070959264
+>NM_001047151.2 Macaca mulatta tumor protein p53 (TP53), mRNA	0.5796703296703297
+>XM_008270660.2 PREDICTED: Oryctolagus cuniculus tumor protein p53 (TP53), transcript variant X1, mRNA	0.6223535204332841
+>NM_001104742.1 Oryzias latipes tumor protein p53 (tp53), mRNA	0.442092886537331
+>NM_001202405.1 Equus caballus tumor protein p53 (TP53), mRNA	0.5951134380453752
+>XM_029056307.2 PREDICTED: Ornithorhynchus anatinus tumor protein p53 (TP53), mRNA	0.7160278745644599
+>NM_001124692.1 Oncorhynchus mykiss tumor protein p53 (tp53), mRNA	0.4551665243381725
