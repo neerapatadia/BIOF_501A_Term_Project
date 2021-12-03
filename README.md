@@ -91,3 +91,8 @@ snakemake outputs/figures/seq_logos/{gene_name}_seq_logo_{start}_{end}.pdf --cor
 
 all output files will be saved to the ```outputs``` folder, and can be compared by looking at the files in ```example outputs```. 
 
+
+**References**
+1. Edgar R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic acids research, 32(5), 1792–1797. https://doi.org/10.1093/nar/gkh340
+2. ŠMarda, P., Bureš, P., Horová, L., Leitch, I. J., Mucina, L., Pacini, E., Tichý, L., Grulich, V., & Rotreklová, O. (2014). Ecological and evolutionary significance of genomic GC content diversity in monocots. Proceedings of the National Academy of Sciences, 111(39), E4096–E4102. https://doi.org/10.1073/pnas.1321152111
+3. Kim, J., Rosenberg, N. A., & Palacios, J. A. (2020). Distance metrics for ranked evolutionary trees. Proceedings of the National Academy of Sciences, 117(46), 28876–28886. https://doi.org/10.1073/pnas.1922851117
