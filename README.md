@@ -20,8 +20,18 @@ The workflow used to carry out this analysis can be visualized in the following 
 
 **Package Description**
 
-Gene Sequence Analyzer consists of 5 python files, and a snakemake file. Each python script carried out a different part of the pipline 
+Gene Sequence Analyzer consists of 5 python files, and a snakemake file. Each python script carried out a different part of the Gene Sequence Analyzer pipline, and are described below:
+
+1. clean_ncbi_fasta.py: takes an input NCBI refseq fasta file, and reformats so nucleotide sequence takes up a single line, as opposed to being split over multiple lines.
+2. run_msa.py: takes the cleaned NCBI fasta file and runs a MUSCLE alignment to output an alignment file in MUSCLE format
+3. calculate_gc_content.py:
+4. make_phylo_tree.py
+5. make_pwm.py
 
 **Running Instructions**
 
 To run the program, you will be required to instatiate a conda environment, and will need to have the required rependencies installed.
+
+**References**
+
+asd
