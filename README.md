@@ -34,6 +34,7 @@ Search a gene of interest, and select orthologs. Click on the species of interes
 
 
 **Running Instructions**
+Please note that this program was intended to be run on a MacOSX/Unix environment.
 
 To run the program, you will be required to instatiate a conda environment, install snakemake, and will need to have the required rependencies installed. To set up a conda environment, run the following command in the commandprompt/terminal:
 
