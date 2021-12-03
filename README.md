@@ -24,14 +24,70 @@ Gene Sequence Analyzer consists of 5 python files, and a snakemake file. Each py
 
 1. clean_ncbi_fasta.py: takes an input NCBI refseq fasta file, and reformats so nucleotide sequence takes up a single line, as opposed to being split over multiple lines.
 2. run_msa.py: takes the cleaned NCBI fasta file and runs a MUSCLE alignment to output an alignment file in MUSCLE format
-3. calculate_gc_content.py:
-4. make_phylo_tree.py
-5. make_pwm.py
+3. calculate_gc_content.py: computes gc content of each sequence based on the aligned .fasta file
+4. make_phylo_tree.py: makes a phylogenetic tree based on the multiple sequence alignment program output
+5. make_pwm.py: takes a specific section of the multiple sequence alignment and computes a position weight matrix, which is used to generate a sequence logo. 
+
+All of these files can be run through the snakemake file using the running instructions outlined below. 
+Input fasta sequence files can be downloaded from: https://www.ncbi.nlm.nih.gov/gene/7157/ortholog/?scope=117570&term=TP53
+Search a gene of interest, and select orthologs. Click on the species of interest and hit download. On the drop down menu, selection "one sequence per gene".
+
 
 **Running Instructions**
 
-To run the program, you will be required to instatiate a conda environment, and will need to have the required rependencies installed.
+To run the program, you will be required to instatiate a conda environment, install snakemake, and will need to have the required rependencies installed. To set up a conda environment, run the following command in the commandprompt/terminal:
 
-**References**
+```
+conda activate base
+mamba create -c conda-forge -c bioconda -n snakemake snakemake
+```
 
-asd
+next you will need to install the dependencies which can be done using the pip command
+
+```
+pip install biopython
+pip install pathlib
+pip install logomaker
+pip install matplotlib
+pip install Bio.Align.Applications
+pip install Bio.Align
+pip install Bio
+pip install pandas
+pip install Bio.SeqRecord
+pip install Bio.SeqIO
+pip install Bio.Align
+pip install pylab
+pip install Graphviz
+pip install Bio.Phylo.TreeConstruction
+```
+
+From the ```/BIOF_501A_Term_Project``` we can use the snakemake file to run the program. 
+
+To clean and pre-process the fasta file, use the following command (You will need to specify the gene name in all caps.):
+```
+snakemake outputs/{gene_name}_cleaned.fasta --cores 1
+```
+
+To run the multiple sequence alignment use the following command (replace the term in the {} with the desired value):
+```
+snakemake example_input_files/{gene_name}_refseq_transcript.fasta --cores 1
+```
+
+To calculate the gc content (this will also generate the barplot figure):
+```
+snakemake outputs/gc_content_sequence_{gene_name}.txt --cores 1
+```
+
+To generate the phylogenetic tree and corresponding newick file:
+```
+snakemake outputs/figures/trees/{gene_name}_tree.pdf --cores 1
+```
+
+To generate the sequence logos, use the following command (you will need to specify the start and end position of the part of the MSA you would like to be analysed in the {start} and {end} values): 
+
+```
+snakemake outputs/figures/seq_logos/{gene_name}_seq_logo_{start}_{end}.pdf --cores 1
+```
+
+all output files will be saved to the ```outputs``` folder, and can be compared by looking at the files in ```example outputs```. 
+
