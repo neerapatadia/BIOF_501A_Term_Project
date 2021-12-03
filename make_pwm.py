@@ -6,13 +6,28 @@ import pandas as pd
 import logomaker
 import matplotlib.pyplot as plt
 import sys
+from pathlib import Path
 
 input_file = sys.argv[1]
 output_file = sys.argv[2]
-start_position = int(sys.argv[3])
-end_position = int(sys.argv[4])
+#start_position = int(sys.argv[3])
+#end_position = int(sys.argv[4])
+
+f_name = Path(output_file).stem
+f_name_list = f_name.split("_")
+start_position = int(f_name_list[3])
+end_position = int(f_name_list[4])
 
 alignment = AlignIO.read(input_file, "fasta")
+aln_len = alignment.get_alignment_length()
+
+if start_position < 0 or start_position > aln_len:
+    print("invalid start position - please try again with an appropriate value")
+elif end_position < 0 or end_position > aln_len:
+    print("invalid end position - please try again with an appropriate value")
+elif end_position < start_position:
+    print("end position is smaller than start postition, please try again with an appropriate value")
+
 selection = alignment[:, start_position:end_position]
 
 
